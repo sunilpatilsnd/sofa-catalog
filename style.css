@@ -1,0 +1,205 @@
+/* CSS Reset Starts */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* CSS Reset Ends */
+
+/* System Fonts as used by GitHub Starts*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+/* System Fonts as used by GitHub Starts*/
+body {
+  min-height: 100vh;
+  font-size: 14px;
+  position: relative;
+}
+header {
+  height: 2rem;
+  background-color: #571818;
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem;
+}
+header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+main {
+  margin: 1.5rem auto;
+  width: 80vw;
+}
+footer {
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #635f5f;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.item {
+  position: relative;
+}
+.item .item-image {
+  text-align: center;
+}
+.item .item-info {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  min-width: 300px;
+  z-index: 99;
+  background: rgb(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 5px;
+}
+.item .item-info h2 {
+  font-size: 2.5rem;
+  padding: 0.8rem 0;
+}
+.item .item-info h3 {
+  font-size: 1.5rem;
+  padding: 0.8rem 0;
+}
+.item .item-image img {
+  position: relative;
+  width: -webkit-fill-available;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 10px;
+}
